@@ -28,9 +28,30 @@ public class HelperUser extends HelperBase {
 
     }
 
-    public void checkLoggedIn() {
+//    public void checkLoggedIn() {
+//
+//        WebElement signOutButton = wd.findElement(By.xpath("//a[text()=' Logout ']"));
+//
+//    }
 
-        WebElement signOutButton = wd.findElement(By.xpath("//a[text()=' Logout ']"));
+    public String getMessage() {
+//        WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
+//        String text = element.getText();
+//        return text;
+        // pause(2000);
+        return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
 
+    }
+
+    public void clickOkButton() {
+        click(By.xpath("//button[text()='Ok']"));
+    }
+
+    public boolean isLogged() {
+        return isElementPresent(By.xpath("//*[text()=' Logout ']"));
+    }
+
+    public void logout() {
+        click(By.xpath("//*[text()=' Logout ']"));
     }
 }
