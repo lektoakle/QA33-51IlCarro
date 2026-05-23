@@ -1,7 +1,5 @@
 package tests;
 
-import manager.HelperBase;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,38 +15,46 @@ public class LoginTests extends TestBase {
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
+            logger.info("logging out");
         }
     }
 
     @Test
     public void positiveLoginTest() {
         app.getHelperUser().openLoginForm();
+        logger.info("Testing data: " + email +", " + password);
         app.getHelperUser().fillLoginForm(email, password);
-        app.getHelperUser().submitLoginForm();
+        app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-        app.getHelperUser().clickOkButton();
-    }
 
+    }
 
 
     @Test
     public void negativeLoginWrongEmailTest() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("testemailtest.com", password);
-        app.getHelperUser().submitLoginForm();
-        Assert.assertTrue(app.getHelperUser().isElementPresent(By.xpath("//div[@class='error']")));
-//        there is no pop-up message in this test
+
+        logger.info("Testing data: " + "testemailtest.com" +", " + password);
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
+        Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
+
     }
 
     @Test
     public void negativeLoginWrongPasswordTest() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(email, "aA@fdfdf");
-        app.getHelperUser().submitLoginForm();
+        logger.info("Testing data: " + email +", " + "aA@fdfdf");
+
+        app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "\"Login or Password incorrect\"");
-        app.getHelperUser().clickOkButton();
+
     }
+
     @AfterMethod
     public void postCondition() {
+        app.getHelperUser().clickOkButton();
     }
 }

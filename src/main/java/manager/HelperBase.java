@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -17,8 +18,24 @@ public class HelperBase {
     public void type(By locator, String data) {
         WebElement field = wd.findElement(locator);
         field.click();
-        field.clear();
+        clearNew(field);
         field.sendKeys(data);
+    }
+
+    public void clearNew(WebElement element){
+        String os = System.getProperty("os.name");
+        System.out.println(os);
+
+
+        element.sendKeys(" ");
+//        element.sendKeys(Keys.BACK_SPACE);
+
+        if(os.startsWith("Win")||os.startsWith("Lin")){
+            element.sendKeys(Keys.CONTROL,"a");
+        }else {
+            element.sendKeys(Keys.COMMAND,"a");
+        }
+        element.sendKeys(Keys.DELETE);
     }
 
     public void click(By locator) {
@@ -39,5 +56,8 @@ public class HelperBase {
         return !list.isEmpty();
     }
 
+    public String getErrorText(){
+        return wd.findElement(By.cssSelector("div.error")).getText();
+    }
 }
 

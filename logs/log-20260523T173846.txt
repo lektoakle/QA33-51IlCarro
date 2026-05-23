@@ -1,0 +1,11 @@
+5818 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+16949 INFO  manager.ApplicationManager -- Testing data: testemailtest.com, aA1@fdfdf
+28083 INFO  manager.ApplicationManager -- Testing data: testemail@test.com, aA@fdfdf
+34917 INFO  manager.ApplicationManager -- Testing data: testemail@test.com, aA1@fdfdf
+36501 INFO  manager.ApplicationManager -- Testing data: User{name='Lisa'lastName='Snow'email='', password='Snow123456$'}
+48634 INFO  manager.ApplicationManager -- Testing data: User{name='Lisa'lastName=''email='snow@gmail.com', password='Snow123456$'}
+60706 INFO  manager.ApplicationManager -- Testing data: User{name=''lastName='Snow'email='snow@gmail.com', password='Snow123456$'}
+72382 INFO  manager.ApplicationManager -- Testing data: User{name='Lisa'lastName='Snow'email='snow@gmail.com', password=''}
+84095 INFO  manager.ApplicationManager -- Testing data: User{name='Anna'lastName='Snow'email='snow2410@gmail.com', password='Snow123456$'}
+86772 INFO  manager.ApplicationManager -- Testing data: User{name='Lisa'lastName='Snow'email='snowgmail.com', password='Snow123456$'}
+99168 INFO  manager.ApplicationManager -- Testing data: User{name='Lisa'lastName='Snow'email='snow@gmail.com', password='Snow123'}

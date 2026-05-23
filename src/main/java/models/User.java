@@ -11,16 +11,18 @@ public class User {
         return name;
     }
 
-    public void setName(String name) {
+    public User setName(String name) {
         this.name = name;
+        return this;
     }
 
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public User setLastName(String lastName) {
         this.lastName = lastName;
+        return this;
     }
 
     public User setEmail(String email) {
@@ -45,9 +47,9 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "name='" + getName() + '\'' +
-                "lastName='" + getLastName() + '\'' +
-                "email='" + getEmail() + '\'' +
+                "name='" + getName() + '\'' + ", " +
+                "lastName='" + getLastName() + '\'' + ", " +
+                "email='" + getEmail() + '\'' + ", " +
                 ", password='" + getPassword() + '\'' +
                 '}';
     }
