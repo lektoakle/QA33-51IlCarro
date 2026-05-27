@@ -22,20 +22,20 @@ public class HelperBase {
         field.sendKeys(data);
     }
 
-    public void clearNew(WebElement element){
+    public void clearNew(WebElement element) {
         String os = System.getProperty("os.name");
-        System.out.println(os);
-
 
         element.sendKeys(" ");
 //        element.sendKeys(Keys.BACK_SPACE);
 
-        if(os.startsWith("Win")||os.startsWith("Lin")){
-            element.sendKeys(Keys.CONTROL,"a");
-        }else {
-            element.sendKeys(Keys.COMMAND,"a");
+        if (os.startsWith("Win") || os.startsWith("Lin")) {
+            element.sendKeys(Keys.CONTROL, "a");
+
+        } else {
+            element.sendKeys(Keys.COMMAND, "a");
         }
         element.sendKeys(Keys.DELETE);
+
     }
 
     public void click(By locator) {
@@ -43,7 +43,7 @@ public class HelperBase {
         element.click();
     }
 
-    public void pause(int time){
+    public void pause(int time) {
         try {
             Thread.sleep(time);
         } catch (InterruptedException e) {
@@ -56,7 +56,7 @@ public class HelperBase {
         return !list.isEmpty();
     }
 
-    public String getErrorText(){
+    public String getErrorText() {
         return wd.findElement(By.cssSelector("div.error")).getText();
     }
 }
