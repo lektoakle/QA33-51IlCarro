@@ -13,12 +13,11 @@ public class TestBase {
     static ApplicationManager app = new ApplicationManager();
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
-    @BeforeSuite
+    @BeforeMethod
     public void setUp() {
         app.init();
     }
 
-    @BeforeMethod
     public void setLogger(Method m) {
         logger.info("Name of method: " + m.getName());
     }
@@ -29,7 +28,6 @@ public class TestBase {
         logger.info("=================================");
     }
 
-    @AfterMethod
     public void tearDown() {
         app.stop();
 

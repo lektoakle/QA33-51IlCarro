@@ -1,0 +1,35 @@
+4105 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+4459 INFO  manager.TestNGListener -- Started testing on: Sun May 31 17:14:52 IDT 2026
+4491 INFO  manager.ApplicationManager -- Name of method: positiveLoginTest
+9518 INFO  manager.TestNGListener -- Started test -> positiveLoginTest
+9581 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Log in '] a
+9594 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+9687 INFO  manager.ApplicationManager -- Testing data: testemail@test.com, aA1@fdfdf
+9727 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //input[@id='email'] input
+9735 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+9833 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+9833 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+9942 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+9942 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+10004 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10004 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+10064 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10065 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [testemail@test.com]
+10192 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //input[@id='password'] input
+10199 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+10279 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10279 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+10322 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10323 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+10356 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10357 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+10397 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10397 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [aA1@fdfdf]
+10476 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //button[@type='submit'] button
+10489 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+11909 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: .dialog-container>h2 h2
+11931 INFO  manager.TestNGListener -- Test success -> null
+12033 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //button[text()='Ok'] button
+12045 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+12106 INFO  manager.ApplicationManager -- =================================
+12204 INFO  manager.TestNGListener -- Finished testing on: Sun May 31 17:15:00 IDT 2026

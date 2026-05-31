@@ -1,0 +1,49 @@
+5525 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+5852 INFO  manager.TestNGListener -- Started testing on: Sun May 31 17:22:10 IDT 2026
+5880 INFO  manager.ApplicationManager -- Name of method: negativeLoginWrongEmailTest
+10950 INFO  manager.TestNGListener -- Started test -> negativeLoginWrongEmailTest
+11017 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Log in '] a
+11028 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+11115 INFO  manager.ApplicationManager -- Testing data: testemailtest.com, aA1@fdfdf
+11157 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //input[@id='email'] input
+11166 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+11253 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11254 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+11335 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11335 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+11392 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11392 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+11442 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11442 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [testemailtest.com]
+11581 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //input[@id='password'] input
+11588 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+11673 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11673 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+11712 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11712 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+11751 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11751 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+11789 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+11789 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [aA1@fdfdf]
+11884 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //button[@type='submit'] button
+11894 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+12010 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: div.error div
+12077 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //button[@disabled] button
+12089 INFO  manager.TestNGListener -- Test success -> null
+17112 INFO  manager.ApplicationManager -- =================================
+17214 INFO  manager.ApplicationManager -- Name of method: negativeLoginWrongPasswordTest
+17225 INFO  o.o.s.s.events.WebDriverListener -- Failed method:findElements
+17226 INFO  o.o.s.s.events.WebDriverListener -- Arguments:[By.xpath: //*[text()=' Logout ']]
+17226 INFO  o.o.s.s.events.WebDriverListener -- Exception:NoSuchSessionException
+17226 INFO  o.o.s.s.events.WebDriverListener -- MessageSession ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-110-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//*[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.116, chrome: {chromedriverVersion: 147.0.7727.116 (dbcf1b1bfb5..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40229}, goog:processID: 67474, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:40229/devtoo..., se:cdpVersion: 147.0.7727.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+17227 INFO  o.o.s.s.events.WebDriverListener -- Screen with error is--->src/test/screenshots/screen_1387.png
+17249 INFO  manager.TestNGListener -- Started test -> negativeLoginWrongPasswordTest
+17251 INFO  manager.TestNGListener -- Skipped test -> null
+17269 INFO  manager.TestNGListener -- Started test -> positiveLoginTest
+17274 INFO  manager.TestNGListener -- Skipped test -> null
+17288 INFO  manager.TestNGListener -- Finished testing on: Sun May 31 17:22:21 IDT 2026

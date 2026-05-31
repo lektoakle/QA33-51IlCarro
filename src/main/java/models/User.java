@@ -50,7 +50,7 @@ public class User {
                 "name='" + getName() + '\'' + ", " +
                 "lastName='" + getLastName() + '\'' + ", " +
                 "email='" + getEmail() + '\'' + ", " +
-                ", password='" + getPassword() + '\'' +
+                "password='" + getPassword() + '\'' +
                 '}';
     }
 }

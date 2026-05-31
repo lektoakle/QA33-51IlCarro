@@ -1,0 +1,47 @@
+4745 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+5062 INFO  manager.TestNGListener -- Started testing on: Sun May 31 17:20:10 IDT 2026
+5094 INFO  manager.ApplicationManager -- Name of method: negativeLoginWrongEmailTest
+10166 INFO  manager.TestNGListener -- Started test -> negativeLoginWrongEmailTest
+10232 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Log in '] a
+10241 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+10336 INFO  manager.ApplicationManager -- Testing data: testemail@est.com, aA1@fdfdf
+10379 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //input[@id='email'] input
+10387 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+10478 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10478 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+10551 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10551 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+10604 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10604 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+10666 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10667 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [testemail@est.com]
+10775 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //input[@id='password'] input
+10781 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+10859 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10860 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+10893 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10893 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+10929 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10930 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+10974 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+10974 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [aA1@fdfdf]
+11046 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //button[@type='submit'] button
+11057 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+16194 INFO  o.o.s.s.events.WebDriverListener -- Failed method:findElement
+16195 INFO  o.o.s.s.events.WebDriverListener -- Arguments:[By.cssSelector: div.error]
+16196 INFO  o.o.s.s.events.WebDriverListener -- Exception:NoSuchElementException
+16198 INFO  o.o.s.s.events.WebDriverListener -- Messageno such element: Unable to locate element: {"method":"css selector","selector":"div.error"}
+  (Session info: chrome=147.0.7727.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-110-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3277404b622e292598e8d83281414f47, findElement {value=div.error, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.116, chrome: {chromedriverVersion: 147.0.7727.116 (dbcf1b1bfb5..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44899}, goog:processID: 65805, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44899/devtoo..., se:cdpVersion: 147.0.7727.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3277404b622e292598e8d83281414f47
+16200 INFO  o.o.s.s.events.WebDriverListener -- Screen with error is--->src/test/screenshots/screen_1007.png
+16527 INFO  manager.TestNGListener -- Test failure -> null
+16625 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //button[text()='Ok'] button
+16638 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+16712 INFO  manager.ApplicationManager -- =================================
+16804 INFO  manager.TestNGListener -- Finished testing on: Sun May 31 17:20:22 IDT 2026

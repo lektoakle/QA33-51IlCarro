@@ -1,0 +1,4 @@
+10226 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+10561 INFO  manager.TestNGListener -- Started testing on: Sun May 31 17:05:01 IDT 2026
+10612 INFO  manager.TestNGListener -- Test failure -> null
+10616 INFO  manager.TestNGListener -- Finished testing on: Sun May 31 17:05:02 IDT 2026

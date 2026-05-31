@@ -1,5 +1,7 @@
 package tests;
 
+import manager.DataProviderUser;
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -19,36 +21,45 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
-    public void positiveLoginTest() {
+    @Test(dataProvider = "positiveLoginData", dataProviderClass = DataProviderUser.class)
+    public void positiveLoginTest(User user) {
         app.getHelperUser().openLoginForm();
-        logger.info("Testing data: " + email +", " + password);
-        app.getHelperUser().fillLoginForm(email, password);
+        logger.info("Testing data: " + user.getEmail() + ", " + user.getPassword());
+        app.getHelperUser().fillLoginForm(user.getEmail(), user.getPassword());
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
 
     }
 
 
-    @Test
-    public void negativeLoginWrongEmailTest() {
-        app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("testemailtest.com", password);
+    @Test(dataProvider = "negativeLoginWrongEmailData", dataProviderClass = DataProviderUser.class)
+    public void negativeLoginWrongEmailTest(User user) {
 
-        logger.info("Testing data: " + "testemailtest.com" +", " + password);
+//        app.getHelperUser().fillLoginForm("testemailtest.com", password);
+
+//        logger.info("Testing data: " + "testemailtest.com" + ", " + password);
+
+
+        app.getHelperUser().openLoginForm();
+        logger.info("Testing data: " + user.getEmail() + ", " + user.getPassword());
+        app.getHelperUser().fillLoginForm(user.getEmail(), user.getPassword());
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
         Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
 
     }
 
-    @Test
-    public void negativeLoginWrongPasswordTest() {
-        app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm(email, "aA@fdfdf");
-        logger.info("Testing data: " + email +", " + "aA@fdfdf");
+    @Test(dataProvider = "negativeLoginWrongPasswordData", dataProviderClass = DataProviderUser.class)
+    public void negativeLoginWrongPasswordTest(User user) {
 
+        app.getHelperUser().openLoginForm();
+        logger.info("Testing data: " + user.getEmail() + ", " + user.getPassword());
+        app.getHelperUser().fillLoginForm(user.getEmail(), user.getPassword());
         app.getHelperUser().submit();
+//        app.getHelperUser().fillLoginForm(email, "aA@fdfdf");
+//        logger.info("Testing data: " + email + ", " + "aA@fdfdf");
+
+
         Assert.assertEquals(app.getHelperUser().getMessage(), "\"Login or Password incorrect\"");
 
     }
