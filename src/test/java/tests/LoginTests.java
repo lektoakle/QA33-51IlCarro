@@ -21,7 +21,7 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test(dataProvider = "positiveLoginData", dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "positiveLoginDataFile", dataProviderClass = DataProviderUser.class)
     public void positiveLoginTest(User user) {
         app.getHelperUser().openLoginForm();
         logger.info("Testing data: " + user.getEmail() + ", " + user.getPassword());
@@ -32,7 +32,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @Test(dataProvider = "negativeLoginWrongEmailData", dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "negativeLoginData_wrongEmail", dataProviderClass = DataProviderUser.class)
     public void negativeLoginWrongEmailTest(User user) {
 
 //        app.getHelperUser().fillLoginForm("testemailtest.com", password);
@@ -49,7 +49,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test(dataProvider = "negativeLoginWrongPasswordData", dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "negativeLoginData_wrongPassword", dataProviderClass = DataProviderUser.class)
     public void negativeLoginWrongPasswordTest(User user) {
 
         app.getHelperUser().openLoginForm();

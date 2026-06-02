@@ -1,0 +1,1032 @@
+465  INFO  manager.TestNGListener -- Started testing on: Tue Jun 02 23:23:51 IDT 2026
+4461 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+4780 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+4873 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+4885 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+5033 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+5040 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+5147 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+5148 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+5217 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+5218 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+5258 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+5259 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+5299 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+5300 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+6030 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+6038 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+6150 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+6159 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+6244 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6244 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+6314 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6315 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+6353 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6353 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+6389 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6389 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+6470 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+6488 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+6592 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6592 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+6630 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6631 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+6672 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6672 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+6716 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6717 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+6820 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+6832 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+6911 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6911 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+6976 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+6977 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+7021 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7022 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+7071 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7071 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+7151 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+7264 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+7385 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+7399 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+7544 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7544 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+7638 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7640 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+7707 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7708 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+7786 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7787 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+7870 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+7877 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+7970 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+7970 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+8016 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8016 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+8067 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8067 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+8112 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8112 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+8178 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+8191 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+8306 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8307 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+8347 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8347 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+8380 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8380 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+8430 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8430 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+8518 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+8528 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+8611 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8611 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+8666 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8666 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+8718 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8719 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+8765 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+8765 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+8846 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+8852 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+8964 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+8964 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+9000 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+9001 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+9034 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+9034 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+9065 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+9065 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+9124 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+9130 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+9131 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+9189 INFO  manager.TestNGListener -- Test success -> null
+9191 INFO  manager.ApplicationManager -- =================================
+12524 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+12557 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+12603 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+12614 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+12754 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+12763 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+12861 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+12862 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+12903 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+12904 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+12938 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+12939 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+12986 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+12986 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+13391 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+13397 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+13503 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+13511 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+13578 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13578 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+13623 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13624 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+13672 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13672 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+13713 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13713 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+13774 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+13782 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+13877 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13877 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+13919 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13919 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+13954 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13955 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+13994 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+13994 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+14055 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+14062 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+14170 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14170 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+14231 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14232 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+14275 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14276 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+14317 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14317 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+14446 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+14537 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+14615 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+14623 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+14753 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14753 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+14814 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14814 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+14876 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14877 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+14933 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+14933 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+15061 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+15069 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+15166 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15167 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+15209 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15209 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+15261 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15261 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+15332 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15333 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+15427 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+15436 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+15548 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15548 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+15631 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15631 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+15679 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15680 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+15731 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15732 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+15863 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+15872 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+15962 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+15962 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+16020 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+16020 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+16092 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+16094 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+16198 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+16199 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+16298 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+16308 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+16436 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+16436 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+16481 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+16481 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+16544 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+16544 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+16586 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+16586 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+16650 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+16660 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+16660 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+16713 INFO  manager.TestNGListener -- Test success -> null
+16716 INFO  manager.ApplicationManager -- =================================
+20239 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+20255 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+20291 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+20298 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+20442 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+20451 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+20549 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+20549 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+20594 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+20594 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+20625 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+20625 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+20655 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+20655 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+21334 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+21342 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+21436 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+21441 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+21508 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21509 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+21546 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21546 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+21607 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21608 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+21645 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21645 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+21712 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+21718 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+21819 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21819 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+21864 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21864 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+21897 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21897 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+21930 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+21930 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+21999 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+22007 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+22121 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22122 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+22177 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22177 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+22238 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22238 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+22281 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22282 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+22373 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+22450 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+22516 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+22523 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+22612 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22612 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+22661 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22661 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+22702 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22702 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+22747 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22747 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+22812 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+22818 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+22929 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22930 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+22993 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+22993 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+23052 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23052 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+23108 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23108 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+23167 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+23179 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+23253 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23253 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+23308 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23308 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+23351 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23351 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+23386 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23386 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+23448 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+23454 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+23535 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23535 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+23601 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23601 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+23648 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23649 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+23696 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+23697 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+23784 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+23795 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+23890 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+23890 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+23920 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+23921 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+23953 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+23953 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+23981 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+23981 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+24047 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+24053 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+24054 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+24108 INFO  manager.TestNGListener -- Test success -> null
+24110 INFO  manager.ApplicationManager -- =================================
+27397 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+27406 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+27439 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+27449 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+27578 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+27589 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+27693 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+27693 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+27734 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+27734 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+27773 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+27773 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+27807 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+27807 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+28487 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+28495 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+28592 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+28597 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+28664 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+28664 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+28702 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+28703 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+28757 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+28758 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+28794 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+28795 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+28861 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+28866 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+28966 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+28966 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+29014 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29014 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+29048 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29048 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+29083 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29083 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+29145 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+29150 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+29264 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29264 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+29323 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29323 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+29365 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29365 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+29413 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29413 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+29496 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+29577 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+29645 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+29650 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+29749 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29750 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+29798 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29798 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+29846 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29846 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+29889 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+29889 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+29957 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+29972 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+30092 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30092 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+30123 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30124 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+30154 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30155 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+30206 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30206 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+30280 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+30285 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+30364 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30365 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+30397 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30398 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+30459 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30459 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+30502 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30502 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+30566 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+30573 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+30656 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30656 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+30722 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30722 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+30778 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30778 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+30822 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+30822 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+30893 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+30898 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+30998 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+30998 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+31037 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+31037 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+31067 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+31067 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+31105 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+31106 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+31150 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+31157 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+31157 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+31208 INFO  manager.TestNGListener -- Test success -> null
+31209 INFO  manager.ApplicationManager -- =================================
+34500 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+34510 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+34554 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+34559 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+34692 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+34698 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+34788 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+34788 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+34829 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+34830 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+34863 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+34863 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+34894 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+34894 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+35606 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+35612 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+35721 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+35728 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+35802 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+35802 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+35865 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+35866 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+35904 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+35904 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+35939 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+35940 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+36000 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+36007 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+36094 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36094 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+36137 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36137 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+36173 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36174 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+36208 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36209 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+36274 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+36280 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+36408 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36408 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+36468 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36468 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+36544 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36545 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+36594 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36595 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+36696 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+36772 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+36833 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+36842 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+36937 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36937 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+36983 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+36983 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+37028 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37028 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+37075 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37075 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+37137 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+37146 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+37252 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37252 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+37295 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37295 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+37329 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37329 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+37367 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37367 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+37448 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+37455 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+37541 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37541 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+37582 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37582 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+37631 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37632 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+37670 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37670 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+37729 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+37737 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+37831 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37832 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+37893 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37893 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+37941 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37941 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+37992 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+37992 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+38104 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+38114 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+38237 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+38237 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+38271 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+38271 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+38299 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+38299 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+38344 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+38344 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+38412 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+38420 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+38420 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+38470 INFO  manager.TestNGListener -- Test success -> null
+38471 INFO  manager.ApplicationManager -- =================================
+41725 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+41733 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+41766 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+41771 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+41895 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+41901 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+41995 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+41995 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+42031 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+42032 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+42061 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+42062 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+42090 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+42090 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+42739 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+42745 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+42841 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+42846 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+42910 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+42910 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+42952 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+42952 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+43013 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43014 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+43059 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43059 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+43143 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+43151 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+43259 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43260 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+43311 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43312 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+43343 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43343 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+43373 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43374 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+43437 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+43442 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+43537 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43537 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+43596 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43596 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+43641 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43641 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+43687 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+43688 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+43760 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+43844 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+43907 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+43918 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+44029 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44030 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+44079 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44080 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+44126 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44127 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+44178 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44178 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+44247 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+44258 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+44363 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44363 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+44402 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44402 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+44436 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44436 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+44488 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44490 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+44588 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+44594 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+44693 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44693 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+44758 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44758 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+44792 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44793 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+44825 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44826 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+44884 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+44888 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+44984 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+44984 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+45046 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+45046 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+45094 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+45095 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+45137 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+45137 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+45210 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+45219 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+45352 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+45352 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+45396 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+45396 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+45450 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+45450 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+45495 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+45495 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+45545 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+45551 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+45552 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+45603 INFO  manager.TestNGListener -- Test success -> null
+45604 INFO  manager.ApplicationManager -- =================================
+48927 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+48938 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+48969 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+48980 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+49111 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+49120 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+49207 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+49207 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+49255 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+49255 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+49286 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+49286 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+49318 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+49318 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+49970 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+49976 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+50069 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+50075 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+50153 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50153 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+50204 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50204 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+50264 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50264 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+50303 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50303 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+50379 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+50398 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+50522 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50522 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+50555 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50555 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+50586 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50586 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+50619 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50619 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+50678 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+50686 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+50784 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50784 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+50846 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50846 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+50896 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50896 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+50942 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+50942 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+51021 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+51104 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+51179 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+51187 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+51277 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51277 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+51324 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51325 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+51371 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51371 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+51412 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51412 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+51474 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+51478 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+51586 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51586 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+51624 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51625 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+51663 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51664 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+51711 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51711 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+51791 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+51796 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+51871 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51871 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+51901 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51901 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+51949 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51949 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+51996 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+51997 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+52066 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+52072 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+52144 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+52145 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+52211 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+52211 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+52258 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+52258 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+52305 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+52305 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+52371 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+52376 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+52476 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+52476 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+52518 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+52518 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+52551 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+52551 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+52578 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+52578 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+52626 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+52632 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+52632 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+52679 INFO  manager.TestNGListener -- Test success -> null
+52681 INFO  manager.ApplicationManager -- =================================
+57515 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+57529 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+57557 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+57567 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+57691 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+57696 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+57776 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+57777 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+57822 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+57822 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+57852 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+57852 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+57884 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+57885 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+58826 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+58833 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+58925 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+58930 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+58994 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+58994 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+59025 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59025 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+59074 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59074 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+59124 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59124 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+59219 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+59223 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+59308 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59308 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+59352 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59352 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+59385 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59385 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+59418 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59418 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+59480 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+59486 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+59589 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59590 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+59654 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59654 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+59703 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59703 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+59743 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+59743 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+59829 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+59915 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+59973 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+59977 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+60059 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60059 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+60106 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60106 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+60151 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60151 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+60192 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60192 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+60256 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+60261 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+60375 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60375 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+60411 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60411 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+60444 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60444 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+60487 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60487 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+60570 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+60575 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+60654 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60654 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+60685 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60685 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+60733 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60733 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+60772 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60773 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+60851 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+60857 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+60950 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+60951 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+61010 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+61010 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+61061 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+61061 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+61109 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+61109 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+61185 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+61192 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+61291 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+61291 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+61318 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+61318 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+61352 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+61352 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+61389 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+61389 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+61463 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+61473 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+61473 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+61523 INFO  manager.TestNGListener -- Test success -> null
+61525 INFO  manager.ApplicationManager -- =================================
+67802 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+67816 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+67843 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+67849 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+67982 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+67989 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+68101 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+68101 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+68153 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+68153 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+68183 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+68183 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+68213 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+68213 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+69174 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+69183 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+69266 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+69271 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+69337 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69337 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+69366 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69366 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+69410 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69410 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+69458 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69458 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+69517 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+69522 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+69590 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69590 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+69625 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69625 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+69669 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69670 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+69702 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69702 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+69755 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+69761 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+69840 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69840 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+69909 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69909 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+69947 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69947 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+69984 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+69984 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+70056 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+70141 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+70204 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+70210 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+70288 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70288 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+70328 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70329 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+70367 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70367 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+70405 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70405 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+70465 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+70470 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+70564 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70564 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+70601 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70601 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+70630 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70630 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+70662 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70662 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+70714 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+70719 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+70797 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70797 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+70833 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70833 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+70870 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70870 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+70905 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+70905 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+70958 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+70964 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+71044 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+71044 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+71097 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+71097 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+71134 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+71134 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+71202 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+71202 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+71274 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+71282 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+71365 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+71365 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+71391 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+71392 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+71416 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+71416 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+71446 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+71446 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+71491 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+71496 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+71497 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+71545 INFO  manager.TestNGListener -- Test success -> null
+71546 INFO  manager.ApplicationManager -- =================================
+74605 INFO  manager.ApplicationManager -- Url: https://ilcarro.web.app/search
+74614 INFO  manager.TestNGListener -- Started test -> addNewCarSuccessFile
+74642 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //a[text()=' Let the car work '] a
+74648 INFO  o.o.s.s.events.WebDriverListener -- Click on -> a
+74805 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: pickUpPlace input
+74815 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+74899 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+74899 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+74948 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+74948 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+74982 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+74982 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+75016 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75016 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [TelAviv]
+75377 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.xpath: //*[text()='OK'] button
+75387 INFO  o.o.s.s.events.WebDriverListener -- Click on -> button
+75494 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: make input
+75502 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+75574 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75574 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+75621 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75621 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+75670 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75670 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+75707 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75707 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Toyota]
+75765 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: model input
+75770 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+75864 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75864 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+75911 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75911 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+75948 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75948 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+75981 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+75981 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Corolla]
+76038 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: year input
+76044 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+76146 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76146 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+76208 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76208 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+76251 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76251 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+76311 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76311 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [2020]
+76388 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: fuel select
+76459 INFO  o.o.s.s.events.WebDriverListener -- Click on -> option
+76518 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: seats input
+76523 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+76613 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76613 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+76667 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76667 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+76715 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76715 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+76755 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76755 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [4]
+76843 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: class input
+76858 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+76980 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+76980 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+77021 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77021 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+77075 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77075 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+77131 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77131 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [Economy]
+77217 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: serialNumber input
+77222 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+77307 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77307 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+77355 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77355 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+77408 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77408 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+77454 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77454 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [1234567]
+77511 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: price input
+77518 INFO  o.o.s.s.events.WebDriverListener -- Click on -> input
+77623 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77623 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+77665 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77665 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+77734 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77734 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+77795 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+77795 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [120.0]
+77866 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.id: about textarea
+77871 INFO  o.o.s.s.events.WebDriverListener -- Click on -> textarea
+77962 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+77963 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [ ]
+78015 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+78015 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [, a]
+78058 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+78058 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> []
+78104 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> textarea
+78104 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [""]
+78163 INFO  o.o.s.s.events.WebDriverListener -- Before find element ->By.cssSelector: #photos input
+78169 INFO  o.o.s.s.events.WebDriverListener -- sendKeys to element-> input
+78169 INFO  o.o.s.s.events.WebDriverListener -- sendKeys keysToSend -> [/home/no-u/QA_Automation/QA33-51IlCarro/src/main/resources/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg]
+78247 INFO  manager.TestNGListener -- Test success -> null
+78248 INFO  manager.ApplicationManager -- =================================
+78254 INFO  manager.TestNGListener -- Finished testing on: Tue Jun 02 23:25:09 IDT 2026
