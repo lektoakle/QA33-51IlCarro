@@ -10,10 +10,10 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
 
-    String email = "testemail@test.com";
-    String password = "aA1@fdfdf";
+//    String email = "testemail@test.com";
+//    String password = "aA1@fdfdf";
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();

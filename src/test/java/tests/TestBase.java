@@ -13,7 +13,7 @@ public class TestBase {
     static ApplicationManager app = new ApplicationManager();
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void setUp() {
         app.init();
     }
@@ -23,7 +23,7 @@ public class TestBase {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void end() {
         logger.info("=================================");
     }

@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class RegistrationTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
@@ -18,7 +18,7 @@ public class RegistrationTests extends TestBase {
     }
 
 
-    @Test
+    @Test(groups = {"smoke", "functest", "registration"})
     public void registrationSuccess() {
         int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
         User user = new User()
@@ -35,7 +35,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertEquals(app.getHelperUser().getMessage(), "You are logged in success");
     }
 
-    @Test
+    @Test(groups = {"smoke", "functest", "registration"})
     public void registrationEmptyName() {
         User user = new User()
                 .setName("")
@@ -52,7 +52,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
     }
 
-    @Test
+    @Test(groups = {"functest", "registration"})
     public void registrationEmptyLastName() {
         User user = new User()
                 .setName("Lisa")
@@ -70,7 +70,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
     }
 
-    @Test
+    @Test(groups = {"functest", "registration"})
     public void registrationWrongEmail() {
         User user = new User()
                 .setName("Lisa")
@@ -88,7 +88,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
     }
 
-    @Test
+    @Test(groups = {"functest", "registration"})
     public void registrationEmptyEmail() {
         User user = new User()
                 .setName("Lisa")
@@ -106,7 +106,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
     }
 
-    @Test
+    @Test(groups = {"functest", "registration"})
     public void registrationWrongPassword() {
         User user = new User()
                 .setName("Lisa")
@@ -125,7 +125,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isYallaButtonDisabled());
     }
 
-    @Test
+    @Test(groups = {"functest", "registration"})
     public void registrationEmptyPassword() {
         User user = new User()
                 .setName("Lisa")
@@ -144,7 +144,7 @@ public class RegistrationTests extends TestBase {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getHelperUser().clickOkButton();
     }
